@@ -1,0 +1,769 @@
+ - src/main/java -
+ - src/main/java/gabienapp -
+ - src/main/java/gabienapp/Application.java -
+x "Quit R48"
+y "Выйти из R48"
+x "Font Sizes"
+y "Кегли шрифтов"
+x "MS per frame:"
+y "Миллисек. на кадр:"
+x "Root Path:"
+y "Корневая папка:"
+x "Choose Target Engine:"
+y "Выберите движок:"
+x "An error has occurred in R48. This is always the result of a bug somewhere."
+y "В R48 произошла ошибка. Это всегда значит, что где-то есть баг."
+x "Details follow. If another error occurs, R48 will shutdown. Make a backup immediately, only then save."
+y "Подробности ниже. Если происходит ошибка, R48 закрывается. Немедленно сделайте резервную копию, а лишь затем сохраните изменения."
+x "0 Save error as file"
+y "0 Сохранить ошибку как файл"
+ - src/main/java/r48 -
+ - src/main/java/r48/AppMain.java -
+x "#A modified. Clipboard: #B"
+y "#A изменено. Буфер обмена: #B"
+x "Loading..."
+y "Загрузка..."
+x "Save All Modified Files"
+y "Сохранить изменённые файлы"
+x "Clipboard"
+y "Буфер обмена"
+x "There is nothing in the clipboard."
+y "В буфере обмена ничего нет."
+x "Help"
+y "Справка"
+x "Information"
+y "Информация"
+x "Index"
+y "Содержание"
+x "Help Window"
+y "Окно справки"
+ - src/main/java/r48/ArrayUtils.java -
+ - src/main/java/r48/dbs -
+ - src/main/java/r48/dbs/ATDB.java -
+ - src/main/java/r48/dbs/CMDB.java -
+ - src/main/java/r48/dbs/DBLoader.java -
+ - src/main/java/r48/dbs/FormatSyntax.java -
+ - src/main/java/r48/dbs/IDatabase.java -
+ - src/main/java/r48/dbs/IProxySchemaElement.java -
+ - src/main/java/r48/dbs/NameProxySchemaElement.java -
+ - src/main/java/r48/dbs/ObjectDB.java -
+x "Error: "
+y "Ошибка: "
+ - src/main/java/r48/dbs/PathSyntax.java -
+ - src/main/java/r48/dbs/RPGCommand.java -
+x "UNK."
+y "НЕИЗВ."
+ - src/main/java/r48/dbs/SDB.java -
+x "Code"
+y "Код"
+x "Browse #A"
+y "Обзор #A"
+x "Open Table..."
+y "Открыть таблицу..."
+x "Select Tile Graphic..."
+y "Выбор графики клетки..."
+x "Integer"
+y "Целое число"
+ - src/main/java/r48/dbs/TSDB.java -
+ - src/main/java/r48/dbs/TXDB.java -
+ - src/main/java/r48/DictionaryUpdaterRunnable.java -
+x "ID."
+y "ID."
+ - src/main/java/r48/FontSizes.java -
+ - src/main/java/r48/IMapContext.java -
+ - src/main/java/r48/io -
+ - src/main/java/r48/io/ika -
+ - src/main/java/r48/io/ika/BM8I.java -
+ - src/main/java/r48/io/ika/NPChar.java -
+ - src/main/java/r48/io/IkaObjectBackend.java -
+ - src/main/java/r48/io/IObjectBackend.java -
+ - src/main/java/r48/io/r2k -
+ - src/main/java/r48/io/r2k/chunks -
+ - src/main/java/r48/io/r2k/chunks/ArrayR2kInterpretable.java -
+ - src/main/java/r48/io/r2k/chunks/ArrayR2kStruct.java -
+ - src/main/java/r48/io/r2k/chunks/ArraySetR2kStruct.java -
+ - src/main/java/r48/io/r2k/chunks/ArraySizeR2kInterpretable.java -
+ - src/main/java/r48/io/r2k/chunks/BitfieldR2kStruct.java -
+ - src/main/java/r48/io/r2k/chunks/BlobR2kStruct.java -
+ - src/main/java/r48/io/r2k/chunks/BooleanR2kStruct.java -
+ - src/main/java/r48/io/r2k/chunks/ByteR2kStruct.java -
+ - src/main/java/r48/io/r2k/chunks/Int32R2kStruct.java -
+ - src/main/java/r48/io/r2k/chunks/IntegerR2kStruct.java -
+ - src/main/java/r48/io/r2k/chunks/IR2kInterpretable.java -
+ - src/main/java/r48/io/r2k/chunks/IR2kStruct.java -
+ - src/main/java/r48/io/r2k/chunks/OptionalR2kStruct.java -
+ - src/main/java/r48/io/r2k/chunks/R2kObject.java -
+ - src/main/java/r48/io/r2k/chunks/ShortR2kStruct.java -
+ - src/main/java/r48/io/r2k/chunks/SparseArrayAR2kStruct.java -
+ - src/main/java/r48/io/r2k/chunks/SparseArrayHR2kStruct.java -
+ - src/main/java/r48/io/r2k/chunks/SparseArrayR2kInterpretable.java -
+ - src/main/java/r48/io/r2k/chunks/StringR2kStruct.java -
+ - src/main/java/r48/io/r2k/files -
+ - src/main/java/r48/io/r2k/files/DatabaseIO.java -
+ - src/main/java/r48/io/r2k/files/MapIO.java -
+ - src/main/java/r48/io/r2k/files/MapTreeIO.java -
+ - src/main/java/r48/io/r2k/Index.java -
+ - src/main/java/r48/io/r2k/obj -
+ - src/main/java/r48/io/r2k/obj/Encounter.java -
+ - src/main/java/r48/io/r2k/obj/Event.java -
+ - src/main/java/r48/io/r2k/obj/EventPageCondition.java -
+ - src/main/java/r48/io/r2k/obj/EventPage.java -
+ - src/main/java/r48/io/r2k/obj/ldb -
+ - src/main/java/r48/io/r2k/obj/ldb/ActorClass.java -
+ - src/main/java/r48/io/r2k/obj/ldb/Actor.java -
+ - src/main/java/r48/io/r2k/obj/ldb/AnimationCell.java -
+ - src/main/java/r48/io/r2k/obj/ldb/AnimationFrame.java -
+ - src/main/java/r48/io/r2k/obj/ldb/Animation.java -
+ - src/main/java/r48/io/r2k/obj/ldb/AnimationTiming.java -
+ - src/main/java/r48/io/r2k/obj/ldb/Attribute.java -
+ - src/main/java/r48/io/r2k/obj/ldb/BAD.java -
+ - src/main/java/r48/io/r2k/obj/ldb/BattleCommands.java -
+ - src/main/java/r48/io/r2k/obj/ldb/BattlerAnimation.java -
+ - src/main/java/r48/io/r2k/obj/ldb/CommonEvent.java -
+ - src/main/java/r48/io/r2k/obj/ldb/Database.java -
+ - src/main/java/r48/io/r2k/obj/ldb/EnemyAction.java -
+ - src/main/java/r48/io/r2k/obj/ldb/Enemy.java -
+ - src/main/java/r48/io/r2k/obj/ldb/ItemAnimation.java -
+ - src/main/java/r48/io/r2k/obj/ldb/Item.java -
+ - src/main/java/r48/io/r2k/obj/ldb/LdbSystem.java -
+ - src/main/java/r48/io/r2k/obj/ldb/Learning.java -
+ - src/main/java/r48/io/r2k/obj/ldb/Skill.java -
+ - src/main/java/r48/io/r2k/obj/ldb/State.java -
+ - src/main/java/r48/io/r2k/obj/ldb/SVStore.java -
+ - src/main/java/r48/io/r2k/obj/ldb/Terms.java -
+ - src/main/java/r48/io/r2k/obj/ldb/Terrain.java -
+ - src/main/java/r48/io/r2k/obj/ldb/Tileset.java -
+ - src/main/java/r48/io/r2k/obj/ldb/Troop.java -
+ - src/main/java/r48/io/r2k/obj/MapInfo.java -
+ - src/main/java/r48/io/r2k/obj/MapTreeStart.java -
+ - src/main/java/r48/io/r2k/obj/MapUnit.java -
+ - src/main/java/r48/io/r2k/obj/MoveRoute.java -
+ - src/main/java/r48/io/r2k/obj/Music.java -
+ - src/main/java/r48/io/r2k/obj/Sound.java -
+ - src/main/java/r48/io/r2k/R2kUtil.java -
+ - src/main/java/r48/io/r2k/struct -
+ - src/main/java/r48/io/r2k/struct/BattleParamBlock.java -
+ - src/main/java/r48/io/r2k/struct/EventCommand.java -
+ - src/main/java/r48/io/r2k/struct/MapTree.java -
+ - src/main/java/r48/io/r2k/struct/MoveCommand.java -
+ - src/main/java/r48/io/r2k/struct/TRect.java -
+ - src/main/java/r48/io/R2kObjectBackend.java -
+ - src/main/java/r48/io/R48ObjectBackend.java -
+ - src/main/java/r48/map -
+ - src/main/java/r48/map/drawlayers -
+ - src/main/java/r48/map/drawlayers/EventMapViewDrawLayer.java -
+x "Events"
+y "События"
+ - src/main/java/r48/map/drawlayers/IMapViewDrawLayer.java -
+ - src/main/java/r48/map/drawlayers/PanoramaMapViewDrawLayer.java -
+x "Panorama"
+y "Панорама"
+ - src/main/java/r48/map/drawlayers/PassabilityMapViewDrawLayer.java -
+x "Passability Overlay"
+y "Показ проходимости"
+ - src/main/java/r48/map/drawlayers/R2kTileMapViewDrawLayer.java -
+x "Tile L#A ({B=T='upper'/'wall' tileset flags|general})"
+y "Клетка L#A ({B=T=флаги тайлсета «верх»/«стена»|общая})"
+ - src/main/java/r48/map/drawlayers/TileMapViewDrawLayer.java -
+x "Tile Layer #A"
+y "Слой клеток #A"
+ - src/main/java/r48/map/events -
+ - src/main/java/r48/map/events/IEventGraphicRenderer.java -
+ - src/main/java/r48/map/events/IkaEventGraphicRenderer.java -
+ - src/main/java/r48/map/events/NullEventGraphicRenderer.java -
+ - src/main/java/r48/map/events/R2kEventGraphicRenderer.java -
+ - src/main/java/r48/map/events/RMEventGraphicRenderer.java -
+ - src/main/java/r48/map/imaging -
+ - src/main/java/r48/map/imaging/CacheImageLoader.java -
+ - src/main/java/r48/map/imaging/GabienImageLoader.java -
+ - src/main/java/r48/map/imaging/IImageLoader.java -
+ - src/main/java/r48/map/imaging/PNG8IImageLoader.java -
+ - src/main/java/r48/map/imaging/XYZImageLoader.java -
+ - src/main/java/r48/map/imaging/XYZOrPNGImageLoader.java -
+ - src/main/java/r48/map/IMapViewCallbacks.java -
+ - src/main/java/r48/map/mapinfos -
+ - src/main/java/r48/map/mapinfos/IRMLikeMapInfoBackend.java -
+ - src/main/java/r48/map/mapinfos/IRMLikeMapInfoBackendWPriv.java -
+ - src/main/java/r48/map/mapinfos/IRMLikeMapInfoBackendWPub.java -
+ - src/main/java/r48/map/mapinfos/MapInfoReparentUtil.java -
+ - src/main/java/r48/map/mapinfos/R2kRMLikeMapInfoBackend.java -
+ - src/main/java/r48/map/mapinfos/RXPRMLikeMapInfoBackend.java -
+ - src/main/java/r48/map/mapinfos/UIGRMMapInfos.java -
+x "Parent Inconsistency Warning @ #A o #B"
+y "Предупреждение: ошибка вложенности на #A, порядок #B"
+x "Move Out "
+y "Вынести из "
+x "Edit Info. "
+y "Редактировать инф. "
+x "Delete!"
+y "Удалить!"
+x "Delete?"
+y "Удалить?"
+x "<Insert New Map>"
+y "<Вставить новую карту>"
+x "Confirm"
+y "Подтвердить"
+x "That ID is already in use."
+y "Этот ID уже используется."
+x "Find unused ID."
+y "Найти неиспользуемый ID."
+x "Map ID?"
+y "ID карты?"
+x "<Test Sequence Consistency>"
+y "<Проверить корректность порядка>"
+x "The MapInfos database is sequential."
+y "База данных информации о картах корректна."
+x "The entries in the MapInfos database contain duplicates."
+y "В базе данных информации о картах есть дубликаты."
+x "The entries in the MapInfos database contain holes."
+y "В базе данных информации о картах есть пропуски."
+ - src/main/java/r48/map/MapViewUpdateScheduler.java -
+ - src/main/java/r48/map/pass -
+ - src/main/java/r48/map/pass/IPassabilitySource.java -
+ - src/main/java/r48/map/pass/R2kPassabilitySource.java -
+ - src/main/java/r48/map/StuffRenderer.java -
+ - src/main/java/r48/map/systems -
+ - src/main/java/r48/map/systems/IkaSystem.java -
+ - src/main/java/r48/map/systems/IRMMapSystem.java -
+ - src/main/java/r48/map/systems/MapSystem.java -
+x "Load Map"
+y "Загрузить карту"
+ - src/main/java/r48/map/systems/NullSystem.java -
+ - src/main/java/r48/map/systems/R2kSystem.java -
+ - src/main/java/r48/map/systems/RVXASystem.java -
+ - src/main/java/r48/map/systems/RXPSystem.java -
+x "The list of items in the game."
+y "Список предметов в игре."
+x "System data (of any importance, anyway)."
+y "Системные данные (не все они важные)."
+x "Notably, switch and variable lists have a 0th index, but only indexes starting from 1 are actually allowed to be used."
+y "В частности у переключателей и переменных есть индекс номер 0, но разрешено использовать только индексы от 1."
+x "Magic number:"
+y "Волшебное число:"
+x "Magic number II:"
+y "Волшебное число II:"
+ - src/main/java/r48/map/tiles -
+ - src/main/java/r48/map/tiles/AutoTileTypeField.java -
+ - src/main/java/r48/map/tiles/IkaTileRenderer.java -
+x "Tiles"
+y "Клетки"
+ - src/main/java/r48/map/tiles/ITileRenderer.java -
+ - src/main/java/r48/map/tiles/LcfTileRenderer.java -
+ - src/main/java/r48/map/tiles/NullTileRenderer.java -
+x "Tiles Unsupported"
+y "Клетки не поддерживаются"
+ - src/main/java/r48/map/tiles/VXATileRenderer.java -
+x "Use Shadow-region Tool"
+y "Исп. инструмент тень/регион"
+ - src/main/java/r48/map/tiles/XPTileRenderer.java -
+ - src/main/java/r48/map/TimeWaster.java -
+ - src/main/java/r48/map/UIMapToolWrapper.java -
+ - src/main/java/r48/map/UIMapViewContainer.java -
+x "Shadow/Region"
+y "Тень/регион"
+x "Layer Visibility"
+y "Показ слоёв"
+x "Tile From Map"
+y "Взять клетку с карты"
+x "..."
+y "..."
+ - src/main/java/r48/map/UIMapView.java -
+x "Mouse drag: Scroll, Shift-left: Pick tile."
+y "Перетаскивание: прокрутка, Shift-левая кн.: выбрать клетку."
+x "LMB: Use tool, others: Scroll, Shift-left: Pick tile."
+y "Левая кн.: использовать, другие: прокрутка, Shift-левая: выбрать клетку."
+x "LMB: Use tool, others: Scroll."
+y "Левая кн.: использовать, другие: прокрутка."
+x "Mouse drag: Scroll."
+y "Перетаскивание: прокрутка."
+ - src/main/java/r48/maptools -
+ - src/main/java/r48/maptools/UIMTAutotile.java -
+x "Tile Pen"
+y "Карандаш по клеткам"
+x "Rectangle"
+y "Прямоуг."
+x "Fill"
+y "Заливка"
+ - src/main/java/r48/maptools/UIMTAutotileRectangle.java -
+x "Cancel"
+y "Отмена"
+x "Click on a tile to finish the rectangle, or:"
+y "Щёлкните по клетке, чтобы завершить прямоугольник, или:"
+ - src/main/java/r48/maptools/UIMTEventMover.java -
+x "Click to place event"
+y "Щёлкните, чтобы разместить событие"
+ - src/main/java/r48/maptools/UIMTEventPicker.java -
+x "MOV"
+y "ДВИГ"
+x "DEL"
+y "УДАЛ"
+x "+ Add Event"
+y "+ Добавить событие"
+x "Ev.Pick #[#A total#]"
+y "Выбр. событие #[всего #A#]"
+ - src/main/java/r48/maptools/UIMTPickTile.java -
+x "Click on a tile to pick it."
+y "Click on a tile to pick it."
+ - src/main/java/r48/maptools/UIMTPopupButtons.java -
+x "Reload Panorama/TS"
+y "Обновить панораму/клетки"
+x "Properties"
+y "Свойства"
+x "Resize"
+y "Изм.разм."
+ - src/main/java/r48/maptools/UIMTShadowLayer.java -
+x "Up-Left"
+y "Верх-лево"
+x "Up-Right"
+y "Верх-право"
+x "Down-Left"
+y "Низ-лево"
+x "Down-Right"
+y "Низ-право"
+x "Region:"
+y "Регион:"
+ - src/main/java/r48/RubyCT.java -
+ - src/main/java/r48/RubyIO.java -
+ - src/main/java/r48/RubyTable.java -
+ - src/main/java/r48/schema -
+ - src/main/java/r48/schema/AggregateSchemaElement.java -
+ - src/main/java/r48/schema/AMAISchemaElement.java -
+x "Parent Index."
+y "Родит. индекс."
+ - src/main/java/r48/schema/ArrayDisambiguatorSchemaElement.java -
+ - src/main/java/r48/schema/ArrayElementSchemaElement.java -
+x "(This index isn't valid - did you modify a group from another window?)"
+y "(Данный индекс неверен — группа менялась в другом окне?)"
+x "Field #A doesn't exist (default #B)"
+y "Поля #A не существует (по умолчанию #B)"
+ - src/main/java/r48/schema/arrays -
+ - src/main/java/r48/schema/arrays/ArbIndexedArraySchemaElement.java -
+ - src/main/java/r48/schema/arrays/ArraySchemaElement.java -
+x "Sel"
+y "Выбр"
+x "DeSel"
+y "Сброс"
+x "Select..."
+y "Выбрать..."
+x "Add #@ #A"
+y "Добавить на #A"
+ - src/main/java/r48/schema/arrays/StandardArraySchemaElement.java -
+ - src/main/java/r48/schema/BooleanSchemaElement.java -
+x "True"
+y "Истина"
+x "False"
+y "Ложь"
+ - src/main/java/r48/schema/displays -
+ - src/main/java/r48/schema/displays/EPGDisplaySchemaElement.java -
+ - src/main/java/r48/schema/EnumSchemaElement.java -
+x "int:"
+y "целое:"
+ - src/main/java/r48/schema/FloatSchemaElement.java -
+ - src/main/java/r48/schema/GenericDisambiguationSchemaElement.java -
+ - src/main/java/r48/schema/HashSchemaElement.java -
+x "Key "
+y "Ключ "
+x "Add Key"
+y "Добавить ключ"
+ - src/main/java/r48/schema/IFieldSchemaElement.java -
+ - src/main/java/r48/schema/integers -
+ - src/main/java/r48/schema/integers/IntBooleanSchemaElement.java -
+ - src/main/java/r48/schema/integers/IntegerSchemaElement.java -
+ - src/main/java/r48/schema/integers/LowerBoundIntegerSchemaElement.java -
+ - src/main/java/r48/schema/integers/ROIntegerSchemaElement.java -
+ - src/main/java/r48/schema/IVarSchemaElement.java -
+x "<Missing - add?>"
+y "<Отсутствует — добавить?>"
+ - src/main/java/r48/schema/ObjectClassSchemaElement.java -
+ - src/main/java/r48/schema/OpaqueSchemaElement.java -
+x "Can't edit:"
+y "Не могу редактировать:"
+ - src/main/java/r48/schema/SchemaElement.java -
+ - src/main/java/r48/schema/specialized -
+ - src/main/java/r48/schema/specialized/cmgb -
+ - src/main/java/r48/schema/specialized/cmgb/EventCommandArraySchemaElement.java -
+x "The group is invalid."
+y "Группа неверна."
+x "Add to group..."
+y "Добавить в группу..."
+x " (...)"
+y " (...)"
+ - src/main/java/r48/schema/specialized/cmgb/IGroupBehavior.java -
+ - src/main/java/r48/schema/specialized/cmgb/RPGCommandSchemaElement.java -
+x " ? "
+y " ? "
+x "This command isn't known by the schema's CMDB."
+y "Эта команда неизвестна по CMDB схемы."
+x "This command is known, but no description exists."
+y "Эта команда известна, но не описана."
+x "Unknown Command"
+y "Неизвестная команда"
+x "@indent"
+y "@сдвиг"
+x "WARNING: Missing param. #A"
+y "ВНИМАНИЕ: нет параметра #A"
+ - src/main/java/r48/schema/specialized/CTNativeSchemaElement.java -
+x "R"
+y "R"
+x "G"
+y "G"
+x "B"
+y "B"
+x "A/L"
+y "A/L"
+ - src/main/java/r48/schema/specialized/EventTileReplacerSchemaElement.java -
+ - src/main/java/r48/schema/specialized/FileSelectorSchemaElement.java -
+ - src/main/java/r48/schema/specialized/HWNDSchemaElement.java -
+ - src/main/java/r48/schema/specialized/MapPositionHelperSchemaElement.java -
+ - src/main/java/r48/schema/specialized/R2kSystemDefaultsInstallerSchemaElement.java -
+ - src/main/java/r48/schema/specialized/rmanim -
+ - src/main/java/r48/schema/specialized/rmanim/RMAnimRootPanel.java -
+ - src/main/java/r48/schema/specialized/rmanim/UICellEditingPanel.java -
+x "cellID"
+y "IDслоя"
+x "xPos"
+y "осьX"
+x "yPos"
+y "осьY"
+x "scale"
+y "масштаб"
+x "angle"
+y "угол"
+x "mirror"
+y "отразить"
+x "opacity"
+y "непрозрачность"
+x "blendType"
+y "типСмешЦветов"
+ - src/main/java/r48/schema/specialized/rmanim/UICellSelectionPanel.java -
+x "Cell #A"
+y "Слой #A"
+x "<add cell here>"
+y "<добавить здесь слой>"
+ - src/main/java/r48/schema/specialized/rmanim/UISingleFrameView.java -
+ - src/main/java/r48/schema/specialized/rmanim/UITimeframeControl.java -
+x "Play"
+y "Проиграть"
+x "HS"
+y "HS"
+x "TS"
+y "TS"
+ - src/main/java/r48/schema/specialized/RMAnimSchemaElement.java -
+ - This is probably not used in the new versions -
+x "Start RMAnimEditor"
+y "Запустить RMAnimEditor"
+ - src/main/java/r48/schema/specialized/RubyTableSchemaElement.java -
+ - src/main/java/r48/schema/specialized/StringBlobSchemaElement.java -
+x "Export/Edit"
+y "Экспорт/правка"
+x "Import"
+y "Импорт"
+ - src/main/java/r48/schema/specialized/tbleditors -
+ - src/main/java/r48/schema/specialized/tbleditors/BitfieldTableCellEditor.java -
+ - src/main/java/r48/schema/specialized/tbleditors/DefaultTableCellEditor.java -
+ - src/main/java/r48/schema/specialized/tbleditors/ITableCellEditor.java -
+ - src/main/java/r48/schema/specialized/TempDialogSchemaChoice.java -
+ - src/main/java/r48/schema/specialized/TilesetAllocTableSchemaElement.java -
+ - src/main/java/r48/schema/specialized/TilesetTableSchemaElement.java -
+ - src/main/java/r48/schema/specialized/ZLibBlobSchemaElement.java -
+ - src/main/java/r48/schema/StringSchemaElement.java -
+ - src/main/java/r48/schema/SubwindowSchemaElement.java -
+ - src/main/java/r48/schema/SymEnumSchemaElement.java -
+ - src/main/java/r48/schema/TypeChangerSchemaElement.java -
+ - src/main/java/r48/schema/util -
+ - src/main/java/r48/schema/util/ISchemaHost.java -
+ - src/main/java/r48/schema/util/SchemaHostImpl.java -
+x ".."
+y ".."
+x "Cp."
+y "Кп."
+x "Ps."
+y "Вс."
+x "Incompatible clipboard and target."
+y "Пункт назначения и буфер обмена несовместимы."
+x "Save"
+y "Сохр"
+x "I"
+y "И"
+x "C"
+y "К"
+ - src/main/java/r48/schema/util/SchemaPath.java -
+ - src/main/java/r48/toolsets -
+ - src/main/java/r48/toolsets/BasicToolset.java -
+x "Database Objects"
+y "Объекты БД"
+x "System Tools"
+y "Системные инстр."
+x "Edit Object"
+y "Правка объекта"
+x "New Object via Schema, ODB'AnonObject'"
+y "Новый объект по схеме, ODB'AnonObject'"
+x "Autocorrect Object By Name And Schema"
+y "Авто-исправление объекта по имени и схеме"
+x "Inspect Object (no Schema needed)"
+y "Исследовать объект (схема не нужна)"
+x "Set Internal Windows (good)"
+y "Использовать внутренние окна (хорошо)"
+x "Set External Windows (bad)"
+y "Использовать внешние окна (плохо)"
+x "Use normal in-built fonts"
+y "Использовать нормальные встроенные шрифты"
+x "Use system fonts for everything"
+y "Использовать системные шрифты везде"
+x "Configure font sizes"
+y "Настроить размеры шрифтов"
+x "Test Fonts"
+y "Протестировать шрифты"
+x "Show ODB Memstat"
+y "Показать статистику памяти ODB"
+x "Dump Schemaside Translations"
+y "Выгрузить переводы текущей схемы"
+x "Object Name?"
+y "Назв. объекта?"
+x "Schema ID?"
+y "ID схемы?"
+x "No file, or schema to create it."
+y "Нет файла или схемы, чтобы его создать."
+x "OK!"
+y "ОК!"
+x "Font Size?"
+y "Размер шрифта?"
+x "Wrote Lang and Cmtx files (to be put in schema dir.)"
+y "Записаны файлы Lang и Cmtx (разместить в папку схемы)."
+ - src/main/java/r48/toolsets/IToolset.java -
+ - src/main/java/r48/toolsets/MapToolset.java -
+x "Map"
+y "Карта"
+x "MapInfos"
+y "Инф. о картах"
+ - src/main/java/r48/toolsets/RMToolsToolset.java -
+x "Tools"
+y "Инструменты"
+x "Locate EventCommand in all Pages"
+y "Найти команды событий на всех страницах"
+x "See If Autocorrect Modifies Anything"
+y "Проверить, меняет ли что-то авто-исправление"
+x "Locate incomplete ECs"
+y "Найти неполные ком. событий"
+x "Locate incomplete ECs (CommonEvents)"
+y "Найти неполные ком. событий (для общих событий)"
+x "Run EC Creation Sanity Check"
+y "Запустить проверку создания команд событий"
+x "MEV/CEV Transcript Dump (no Troop/Item/etc.)"
+y "Выгрузка транскрипта событий карты/общих (но не боя, вещей и т.д.)"
+x "Code?"
+y "Код?"
+x "Not found."
+y "Не найдено."
+x "Found an unknown event command - Check the console."
+y "Найдена неизвестная команда события — проверьте консоль."
+x "Common Events"
+y "Общие события"
+x "Map:#A"
+y "Карта:#A"
+x "Ev.#A #C, page #B"
+y "Соб.#A #C, стр. #B"
+x "transcript.html was written to the target's folder."
+y "transcript.have был записан в папку назначения."
+ - src/main/java/r48/toolsets/RMTranscriptDumper.java -
+x "Exported Transcript"
+y "Экспортированный транскрипт"
+x "To Table Of Contents"
+y "К содержанию"
+x "Table Of Contents"
+y "Содержание"
+ - src/main/java/r48/ui -
+ - src/main/java/r48/ui/Coco.java -
+x "Not an actual release - you have likely compiled this yourself."
+y "Это не настоящий выпуск — наверное Вы сами его скомпилировали."
+ - src/main/java/r48/ui/help -
+ - src/main/java/r48/ui/help/HelpSystemController.java -
+ - src/main/java/r48/ui/help/UIHelpSystem.java -
+ - src/main/java/r48/ui/UIAppendButton.java -
+ - src/main/java/r48/ui/UIEnumChoice.java -
+ - src/main/java/r48/ui/UIFontSizeConfigurator.java -
+ - src/main/java/r48/ui/UIGrid.java -
+ - src/main/java/r48/ui/UINSVertLayout.java -
+ - src/main/java/r48/ui/UITextPrompt.java -
+x "OK"
+y "ОК"
+ - src/main/java/r48/ui/UITileGrid.java -
+ - src/main/java/r48/UIObjectDBMonitor.java -
+x " [disposed]"
+y " [удалено]"
+x " #[#AML#]"
+y " #[#AML#]"
+x " [created]"
+y " [создано]"
+x " [modified]"
+y " [изменено]"
+x " [modifications lost, should never occur!]"
+y " [изменения утеряны, это не должно случаться!]"
+ - src/main/java/r48/UITest.java -
+x "PTS"
+y "ВЭк"
+x "PTF"
+y "ВФл"
+x "Back..."
+y "Назад..."
+x "PRINT.txt written!"
+y "Записан PRINT.txt!"
+x "Could not print."
+y "Не удалось вывести."
+
+ - Newly added Systerms will go below in the translation for now -
+x "Save Clipboard To 'clip.r48'"
+y "Сохранить буфер обмена в «clip.r48»"
+x "Load Clipboard From 'clip.r48'"
+y "Загрузить буфер обмена из «clip.r48»"
+x "Inspect Clipboard"
+y "Осмотреть буфер обмена"
+x "Execute Lua from 'script.lua' onto clipboard"
+y "Обработать буфер обмена кодом на Lua из «script.lua»"
+x "The clipboard was saved."
+y "Буфер обмена сохранён."
+x "The clipboard file is invalid or does not exist."
+y "Файл буфера обмена неверен или не существует."
+x "The clipboard file was loaded."
+y "Буфер обмена загружен."
+x "Lua isn't installed, so can't use it."
+y "Интерпретатор Lua не установлен."
+x "Lua error, or took > 10 seconds. Running R48 in a console will allow debugging."
+y "Ошибка Lua, или выполнение заняло >10 секунд. Запустите R48 из консоли для отладки."
+x "Successful - the clipboard was replaced."
+y "Завершено успешно: буфер обмена обновлён."
+x "An exception occurred? (R48-core files are stored in R48's current directory, not the root path.)"
+y "Произошла ошибка? (Основные файлы R48 хранятся в текущей директории R48, не в корневой папке проекта.)"
+x "The image wasn't specified."
+y "Изображение не указано."
+
+ - Font sizes TODO -
+x "schemaPathTextHeight"
+y "schemaPathTextHeight"
+x "schemaFieldTextHeight"
+y "schemaFieldTextHeight"
+x "schemaButtonTextHeight"
+y "schemaButtonTextHeight"
+x "schemaArrayAddTextHeight"
+y "schemaArrayAddTextHeight"
+x "enumChoiceTextHeight"
+y "enumChoiceTextHeight"
+x "blobTextHeight"
+y "blobTextHeight"
+x "gridTextHeight"
+y "gridTextHeight"
+x "tableElementTextHeight"
+y "tableElementTextHeight"
+x "tableSizeTextHeight"
+y "tableSizeTextHeight"
+x "tableResizeTextHeight"
+y "tableResizeTextHeight"
+x "mapPositionTextHeight"
+y "mapPositionTextHeight"
+x "mapDebugTextHeight"
+y "mapDebugTextHeight"
+x "mapInfosTextHeight"
+y "mapInfosTextHeight"
+x "mapLayertabTextHeight"
+y "mapLayertabTextHeight"
+x "eventPickerEntryTextHeight"
+y "eventPickerEntryTextHeight"
+x "tilesTabTextHeight"
+y "tilesTabTextHeight"
+x "atSubtoolTextHeight"
+y "atSubtoolTextHeight"
+x "rmaTimeframeTextHeight"
+y "rmaTimeframeTextHeight"
+x "rmaCellTextHeight"
+y "rmaCellTextHeight"
+x "dialogWindowTextHeight"
+y "dialogWindowTextHeight"
+x "textDialogFieldTextHeight"
+y "textDialogFieldTextHeight"
+x "textDialogDescTextHeight"
+y "textDialogDescTextHeight"
+x "helpParagraphStartHeight"
+y "helpParagraphStartHeight"
+x "helpTextHeight"
+y "helpTextHeight"
+x "helpLinkHeight"
+y "helpLinkHeight"
+x "helpPathHeight"
+y "helpPathHeight"
+x "inspectorBackTextHeight"
+y "inspectorBackTextHeight"
+x "inspectorTextHeight"
+y "inspectorTextHeight"
+x "windowFrameHeight"
+y "windowFrameHeight"
+x "statusBarTextHeight"
+y "statusBarTextHeight"
+x "tabTextHeight"
+y "tabTextHeight"
+x "objectDBMonitorTextHeight"
+y "objectDBMonitorTextHeight"
+x "menuTextHeight"
+y "menuTextHeight"
+x "fontSizerTextHeight"
+y "fontSizerTextHeight"
+x "timeWasterTextHeight"
+y "timeWasterTextHeight"
+x "launcherTextHeight"
+y "launcherTextHeight"
+
+x "Editing Area..."
+y "Редактирование области"
+x "Click to define first point (old area shown)"
+y "Задайте первую точку щелчком (показана старая обл.)"
+x "Click again to define second point"
+y "Задайте щелчком вторую точку"
+
+x "visible"
+y "видимо"
+x "cellId"
+y "ID слоя"
+x "x"
+y "x"
+x "y"
+y "y"
+x "toneR"
+y "красн. тон"
+x "toneG"
+y "зелён. тон"
+x "toneB"
+y "синий тон"
+x "toneGrey"
+y "серый тон"
+x "transparency"
+y "прозрачность"
+
+x "enemyId"
+y "ID врага"
+x "invisible"
+y "невидимый"
+x "Animation Editor"
+y "Редактор анимации"
+x "8px Grid"
+y "Сетка 8px"
+
+x "Loop"
+y "Цикл"
+
+x "Graphically edit this..."
+y "Визуальный редактор..."
+
+x "Manual Edit:"
+y "Ручная правка:"
+x "Cannot clone, this contains a temporary dialog."
+y "Невозможно склонировать, объект содержит временный диалог."
+x "Configure fonts"
+y "Настройка шрифтов"
+x "Test Tones"
+y "Проверка тонировки"
+x "Load"
+y "Загр."
+x "Font: Internal w/fallbacks"
+y "Шрифт: внутренний (по возможности)"
+x "Sprite Num."
+y "№ спрайта"
+
